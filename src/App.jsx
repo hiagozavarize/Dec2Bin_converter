@@ -37,22 +37,18 @@ function App() {
 
   return (
     <div className="container mt-5">
-      <h1 className="text-center mb-4">
-        Conversor {isDec2Bin ? "DecToBin" : "BinToDec"}
-      </h1>
+      <h1 className="text-center mb-4">Number System Converter</h1>
       <div className="row justify-content-center">
         <div className="col-md-4 mb-3">
           <label className="form-label">
-            {isDec2Bin ? "Decimal" : "Binário"}
+            {isDec2Bin ? "Decimal" : "Binary"}
           </label>
           <input
             type="text"
             className="form-control"
             value={isDec2Bin ? valorDec : valorBin}
             onChange={isDec2Bin ? handleDecChange : handleBinChange}
-            placeholder={`Escreva um número ${
-              isDec2Bin ? "decimal" : "binário"
-            }`}
+            placeholder={`write a ${isDec2Bin ? "decimal" : "binary"} number `}
           />
         </div>
         <div className="col-md-1 d-flex mt-3 align-items-center justify-content-center">
@@ -60,16 +56,16 @@ function App() {
         </div>
         <div className="col-md-4 mb-3">
           <label className="form-label">
-            {isDec2Bin ? "Binário" : "Decimal"}
+            {isDec2Bin ? "Binary" : "Decimal"}
           </label>
           <input
             type="text"
             className="form-control"
             value={isDec2Bin ? valorBin : valorDec}
             readOnly
-            placeholder={`Número ${
-              isDec2Bin ? "binário" : "decimal"
-            } será exibido aqui`}
+            placeholder={`the ${
+              isDec2Bin ? "binary" : "decimal"
+            } number will be displayed here`}
           />
         </div>
         <div className="col-md-2 justify-content-center d-flex mt-3 align-items-center">

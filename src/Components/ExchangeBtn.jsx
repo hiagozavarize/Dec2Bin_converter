@@ -4,7 +4,7 @@ function ExchangeBtn({ onClick }) {
   return (
     <div>
       <button className="btn btn-primary" onClick={onClick}>
-        Converter
+        Convert
       </button>
     </div>
   );
