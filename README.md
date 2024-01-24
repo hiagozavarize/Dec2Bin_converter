@@ -2,7 +2,7 @@
 
 <p>This is a simple and practical number system converter. in it, for now it is possible to convert from binary to decimal and vice versa</p>
 
-<img src="public/img/ppagePrintConversor.png">
+<img target="_blank" src="public/img/ppagePrintConversor.png">
 
 you can test <a href="https://dec2bin-converter.vercel.app/">here</a>
 
