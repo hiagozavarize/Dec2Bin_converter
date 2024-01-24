@@ -4,6 +4,6 @@
 
 <img src="public/img/ppagePrintConversor.png">
 
-you can test <a target="_blank" href="https://dec2bin-converter.vercel.app/">here</a>
+you can test <a href="https://dec2bin-converter.vercel.app/" target="_blank">here</a>
 
 <p>New updates will soon be released including conversion options for other types of numerical systems such as hexadecimal and octal :)</p>
