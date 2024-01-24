@@ -1,8 +1,9 @@
-# React + Vite
+<h1>Number System Converter</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p>This is a simple and practical number system converter. in it, for now it is possible to convert from binary to decimal and vice versa</p>
 
-Currently, two official plugins are available:
+<img src="img.png">
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+you can test here
+
+https://dec2bin-converter.vercel.app/
